@@ -1,5 +1,5 @@
 // API 기본 설정
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
+const API_BASE_URL = '/api';
 
 // 헤더에 사용자 ID 추가하는 헬퍼 함수
 const getHeaders = () => {
